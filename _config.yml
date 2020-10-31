@@ -105,10 +105,10 @@ theme: hexo-theme-cactus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repo: https://github.com/itsrichardmai/hexoBlogApplication.git
+    repo: https://github.com/itsrichardmai/hexoBlogApp
     branch: master
   - type: git
-    repo: https://github.com/itsrichardmai/hexoBlogApplication.git
+    repo: https://github.com/itsrichardmai/hexoBlogApp
     branch: src
     extend_dirs: /
     ignore_hidden: false
