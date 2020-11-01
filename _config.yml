@@ -92,7 +92,7 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
+include: 
 exclude:
 ignore:
 
@@ -105,10 +105,10 @@ theme: hexo-theme-cactus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repo: https://github.com/itsrichardmai/hexoBlogApp
+    repo: git@github.com:itsrichardmai/itsrichardmai.github.io.git
     branch: master
   - type: git
-    repo: https://github.com/itsrichardmai/hexoBlogApp
+    repo: git@github.com:itsrichardmai/itsrichardmai.github.io.git
     branch: src
     extend_dirs: /
     ignore_hidden: false
